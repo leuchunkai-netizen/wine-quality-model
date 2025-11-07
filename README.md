@@ -58,3 +58,13 @@ The notebook automatically outputs:
 * If PySpark fails to initialize, restart the Colab runtime.
 * Ensure both CSV files are uploaded at the same prompt.
 * Oversampling is applied separately for red and white wine datasets.
+
+## Dataset Reference
+
+  P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. 
+  Modeling wine preferences by data mining from physicochemical properties.
+  In Decision Support Systems, Elsevier, 47(4):547-553. ISSN: 0167-9236.
+
+  Available at: [@Elsevier] http://dx.doi.org/10.1016/j.dss.2009.05.016
+                [Pre-press (pdf)] http://www3.dsi.uminho.pt/pcortez/winequality09.pdf
+                [bib] http://www3.dsi.uminho.pt/pcortez/dss09.bib
