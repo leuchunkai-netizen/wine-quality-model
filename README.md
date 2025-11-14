@@ -43,15 +43,29 @@ Data is loaded manually using PySpark and labeled with a `wine_type` column.
 2. When prompted, upload the two CSV files.
 3. The notebook will clean, normalize, oversample, train models, and generate evaluation metrics.
 
-## 5. Output Figures and Metrics
+## 5. Outputs & Evaluation Metrics
 
-The notebook automatically outputs:
+The notebook generates:
 
-* Confusion matrices
-* Classification reports
-* Accuracy/F1 metrics
-* Oversampling before/after class distributions
-* Model comparison tables
+Performance Outputs
+1. RMSE (Root Mean Square Error)
+2. R² (Coefficient of Determination)
+3. Correlation coefficient
+4. Model comparison tables for red and white wines
+5. Training runtime measurements
+
+Visual Outputs
+1. Oversampling distribution plots (before and after)
+2. Feature importance plots
+3. Prediction vs actual scatter plots
+4. Confusion matrices (if classification mode enabled)
+
+Key Findings Summary
+1. Gradient Boosted Trees achieved the best results:
+2. Red Wine: RMSE = 0.6815, R² = 0.2690
+3. White Wine: RMSE = 0.7754, R² = 0.2817
+4. Random Forest performed consistently but slightly worse.
+5. Lasso Regression underfit the data.
 
 ## 6. Notes and Troubleshooting
 
